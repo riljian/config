@@ -1,0 +1,9 @@
+[user]
+  gmail = rilislearning@gmail.com
+  name = Ril Jian
+[core]
+  editor = vim
+[alias]
+  tree = log --oneline --decorate --graph --all
+[diff]
+  tool = vimdiff
