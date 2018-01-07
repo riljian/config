@@ -7,3 +7,5 @@
   tree = log --oneline --decorate --graph --all
 [diff]
   tool = vimdiff
+[merge]
+  tool = vimdiff
