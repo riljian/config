@@ -1,0 +1,44 @@
+{
+    "editor.fontSize": 14,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.lineNumbers": "relative",
+    "editor.tabSize": 2,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontSize": 14,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "turboConsoleLog.quote": "`",
+    "turboConsoleLog.wrapLogMessage": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": false,
+    "vim.easymotion": true,
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                " "
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "s"
+            ]
+        }
+    ],
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "breadcrumbs.enabled": true
+}
