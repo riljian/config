@@ -1,9 +1,3 @@
-"Make cursor vertically center
-augroup VCenterCursor
-  au!
-  au BufEnter,WinEnter,WinNew,VimResized *,*.*
-        \ let &scrolloff=winheight(win_getid())/2
-augroup END
 filetype plugin indent on
 syntax on
 set autoindent
