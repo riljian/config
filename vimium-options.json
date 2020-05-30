@@ -1,0 +1,54 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://term.ptt.cc/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.hackerrank.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://dbdiagram.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://hackmd.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://hackmd.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://codepen.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.typingclub.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.keyhero.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# remap removeTab and restoreTab\nmap q removeTab\nmap Q restoreTab\nunmap x\nunmap X\n\n# remap togglePinTab\nmap ap togglePinTab\n\n# remap horizontally switch tabs\nunmap h\nunmap J\nunmap gT\nmap th previousTab\nunmap l\nunmap K\nunmap gt\nmap tl nextTab\nunmap t\nmap T Vomnibar.activateTabSelection\n\n# reset new tab and current tab behavior\n# map o Vomnibar.activateInNewTab\n# map O Vomnibar.activate\n# map b Vomnibar.activateBookmarksInNewTab\n# map B Vomnibar.activateBookmarks\n# map f LinkHints.activateModeToOpenInNewTab\n# map F LinkHints.activateMode\n# map p openCopiedUrlInNewTab\n# map P openCopiedUrlInCurrentTab",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
