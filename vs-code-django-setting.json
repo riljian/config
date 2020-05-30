@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 4,
+  "editor.rulers": [100],
+  "terminal.integrated.cwd": "${workspaceFolder}/main",
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--disable=C0111"
+  ]
+}
