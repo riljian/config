@@ -55,6 +55,10 @@
             "commands": ["editor.action.showHover"]
         },
         {
+            "before": ["z", "f"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
             "before": ["g", "r"],
             "commands": ["editor.action.goToReferences"]
         },
