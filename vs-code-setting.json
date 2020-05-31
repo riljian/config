@@ -24,16 +24,21 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
     "vim.hlsearch": true,
     "vim.ignorecase": false,
     "vim.easymotion": true,
     "vim.foldfix": true,
     "vim.normalModeKeyBindingsNonRecursive": [
+        // easy motion
         {
             "before": [" "],
             "after": ["leader", "leader", "s"]
         },
+        // tab
         {
             "before": ["t", "l"],
             "commands": ["workbench.action.nextEditor"]
@@ -50,14 +55,49 @@
             "before": ["t", "p"],
             "commands": ["workbench.action.closeOtherEditors"]
         },
+        // toggle
         {
             "before": ["z", "h"],
             "commands": ["editor.action.showHover"]
         },
         {
+            "before": ["z", "b"],
+            "commands": ["editor.debug.action.toggleBreakpoint"]
+        },
+        {
             "before": ["z", "f"],
             "commands": ["editor.action.formatDocument"]
         },
+        // toggle debugger
+        {
+            "before": ["z", "d", "s"],
+            "commands": ["workbench.action.debug.start"]
+        },
+        {
+            "before": ["z", "d", "c"],
+            "commands": ["workbench.action.debug.continue"]
+        },
+        {
+            "before": ["z", "d", "r"],
+            "commands": ["workbench.action.debug.restart"]
+        },
+        {
+            "before": ["z", "d", "e"],
+            "commands": ["workbench.action.debug.stop"]
+        },
+        {
+            "before": ["z", "d", "i"],
+            "commands": ["workbench.action.debug.stepInto"]
+        },
+        {
+            "before": ["z", "d", "o"],
+            "commands": ["workbench.action.debug.stepOut"]
+        },
+        {
+            "before": ["z", "d", "n"],
+            "commands": ["workbench.action.debug.stepOver"]
+        },
+        // go
         {
             "before": ["g", "r"],
             "commands": ["editor.action.goToReferences"]

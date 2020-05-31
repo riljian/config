@@ -1,7 +1,13 @@
 {
   "editor.tabSize": 4,
   "editor.rulers": [100],
+  "editor.suggestSelection": "first",
+
   "terminal.integrated.cwd": "${workspaceFolder}/main",
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "python.jediEnabled": false,
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
     "--load-plugins=pylint_django",
